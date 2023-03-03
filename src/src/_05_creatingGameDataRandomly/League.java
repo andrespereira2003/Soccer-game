@@ -24,6 +24,10 @@ public class League {
 
         GameUtils.addGameGoals(game1);
 
+        for(int index=0;index<game1.getGoals().length;index++){
+            System.out.println(game1.getGoals()[index].toString());
+        }
+
         return new Game[]{game1};
     }
 
